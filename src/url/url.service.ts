@@ -27,7 +27,7 @@ export class UrlService {
     }
   }
 
-  async increaseClicks(urlDocument: UrlDocument) {
+  async increaseClicks(urlDocument: UrlDocument): Promise<UrlDocument> {
     // TODO: error handling
     return urlDocument.updateOne({ clicks: urlDocument.clicks + 1 });
   }
