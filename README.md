@@ -26,6 +26,8 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+This application run in PORT 3000. Go to http://localhost:3000/api/ to use swagger.
+
 ## Installation
 
 ```bash
@@ -36,10 +38,14 @@ $ yarn install
 
 Create .env file in the main folder. (For test purposes, the app will work without .env file)
 
-MONGO_DATABASE
-MONGO_USERNAME
-MONGO_PASSWORD
-BASE_URL
+- MongoDB related:
+
+  - `MONGO_USERNAME`
+  - `MONGO_PASSWORD`
+  - `MONGO_DATABASE`
+
+- Base url setup:
+  - `BASE_URL`
 
 ## Running the app
 
